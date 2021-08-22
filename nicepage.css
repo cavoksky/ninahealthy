@@ -33919,6 +33919,10 @@ a.u-link.u-text-hover-grey-90:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         }
+        .u-body
+        {
+        background-attachment: fixed;
+        }
         /** common-rules **/
 
         /** publish-rules **/
@@ -34106,7 +34110,16 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 38px;
+  }
 
+  .u-header .u-menu-1 {
+    width: auto;
+    margin-right: 9px;
+  }
+}
 .u-footer {
   background-image: none;
 }
@@ -34142,10 +34155,20 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-text-1 {
     width: 602px;
   }
+
+  .u-footer .u-menu-1 {
+    width: auto;
+    margin-bottom: 0;
+    margin-left: -7px;
+  }
 }
 @media (max-width: 767px) {
   .u-footer .u-text-1 {
     width: 540px;
+  }
+
+  .u-footer .u-menu-1 {
+    margin-left: -7px;
   }
 }
 @media (max-width: 575px) {
