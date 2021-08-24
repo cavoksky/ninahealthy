@@ -1,38 +1,7 @@
-.u-section-1 {
-  background-image: url("https://pixabay.com/get/g0bff6af7988fda27dc7955f6e0658eac918847d1663ef567c4a6645696ef09f07347ee410dff7c155259c450993ed9a6753085ba78f238b7f5b6f7a391543540_1280.jpg");
-  background-position: 50% 50%;
-}
-
 .u-section-1 .u-sheet-1 {
-  min-height: 500px;
-}
-
-@media (max-width: 1199px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 412px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 316px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 237px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 149px;
-  }
-}.u-section-2 .u-sheet-1 {
   min-height: 959px;
 }
 
-.u-section-2 .u-text-1 {
+.u-section-1 .u-text-1 {
   margin: 1px 0;
 }
